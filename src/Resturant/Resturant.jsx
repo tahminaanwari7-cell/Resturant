@@ -99,7 +99,7 @@ export default function Resturant() {
             <a
               href="#menu"
               className="bg-[#00627d] text-white min-w-[140px] h-[45px] flex items-center text-[13px] 
-              font-bold rounded-2xl  justify-center   hover:opacity-90"
+              font-bold rounded-2xl  justify-center   hover:bg-[#1c3d48]"
             >
               VIEW MENU
             </a>
@@ -107,7 +107,7 @@ export default function Resturant() {
             <a
               href="#order"
               className="bg-[#e7ad00] text-black min-w-[140px] h-[45px] 
-              flex items-center justify-center font-bold  hover:opacity-90 rounded-2xl text-[13px]"
+              flex items-center justify-center font-bold hover:bg-[#ffc109] rounded-2xl text-[13px] duration-4s"
             >
               ORDER ONLINE
             </a>
