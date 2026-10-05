@@ -1,0 +1,290 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+/* ================= TABLET ================= */
+
+@media (max-width: 1024px) {
+
+  /* Navbar */
+  header > div {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /* Hero */
+  section.relative {
+    height: 430px;
+  }
+
+  /* Main intro */
+  section.py-12 p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Ambassador image */
+  section.bg-\[\#e5aa00\] img {
+    max-width: 100%;
+    height: auto;
+  }
+
+}
+
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px) {
+
+  /* Prevent horizontal scrolling */
+  body {
+    overflow-x: hidden;
+  }
+
+  /* ================= NAVBAR ================= */
+
+  header {
+    height: 65px;
+  }
+
+  header > div {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* Logo */
+  header > div > div {
+    font-size: 32px !important;
+  }
+
+
+  /* ================= HERO ================= */
+
+  section.relative {
+    height: 380px;
+  }
+
+  section.relative h1 {
+    font-size: 25px !important;
+    line-height: 1.25;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  section.relative a {
+    min-width: 140px;
+  }
+
+
+  /* ================= PRONUNCIATION ================= */
+
+  .bg-amber-400 {
+    min-height: 38px;
+    padding: 5px 10px;
+  }
+
+  .bg-amber-400 p {
+    font-size: 14px !important;
+  }
+
+
+  /* ================= INTRO ================= */
+
+  section.py-12 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  section.py-12 h2 {
+    font-size: 21px !important;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  section.py-12 > div > p {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px !important;
+    line-height: 1.6;
+  }
+
+
+  /* ================= FEATURE IMAGES ================= */
+
+  section.py-12 .grid {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 35px;
+    column-gap: 10px;
+  }
+
+  section.py-12 .grid img {
+    width: 130px;
+    height: 130px;
+  }
+
+  section.py-12 .grid p {
+    font-size: 14px !important;
+  }
+
+
+  /* ================= AMBASSADOR ================= */
+
+  section.bg-\[\#e5aa00\] {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  section.bg-\[\#e5aa00\] > div {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  section.bg-\[\#e5aa00\] > div > div {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  /* Ambassador image */
+  section.bg-\[\#e5aa00\] img {
+    width: 100% !important;
+    max-width: 600px;
+    height: 280px !important;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  /* Ambassador text */
+  section.bg-\[\#e5aa00\] h2 {
+    font-size: 28px !important;
+    line-height: 1.1;
+  }
+
+  section.bg-\[\#e5aa00\] p {
+    font-size: 14px !important;
+    line-height: 1.6;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+
+  /* ================= FOOTER ================= */
+
+  footer {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+
+  footer > div {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  footer > div > div {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  footer .col-span-2 {
+    grid-column: span 2;
+  }
+
+}
+
+
+/* ================= SMALL MOBILE ================= */
+
+@media (max-width: 480px) {
+
+  /* Navbar */
+  header > div > div {
+    font-size: 28px !important;
+  }
+
+
+  /* Hero */
+  section.relative {
+    height: 350px;
+  }
+
+  section.relative h1 {
+    font-size: 21px !important;
+  }
+
+  section.relative .flex {
+    width: 100%;
+  }
+
+  section.relative a {
+    width: 100%;
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  /* Pronunciation */
+  .bg-amber-400 p {
+    font-size: 12px !important;
+  }
+
+
+  /* Intro */
+  section.py-12 h2 {
+    font-size: 18px !important;
+  }
+
+  section.py-12 > div > p {
+    font-size: 13px !important;
+  }
+
+
+  /* Feature images */
+  section.py-12 .grid img {
+    width: 110px;
+    height: 110px;
+  }
+
+  section.py-12 .grid p {
+    font-size: 12px !important;
+  }
+
+
+  /* Ambassador */
+  section.bg-\[\#e5aa00\] img {
+    height: 220px !important;
+  }
+
+  section.bg-\[\#e5aa00\] h2 {
+    font-size: 24px !important;
+  }
+
+  section.bg-\[\#e5aa00\] p {
+    font-size: 13px !important;
+  }
+
+
+  /* Footer */
+  footer > div > div {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  footer .col-span-2 {
+    grid-column: span 1;
+  }
+
+  footer .flex {
+    justify-content: center;
+  }
+
+}
